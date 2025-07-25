@@ -1,0 +1,1 @@
+Continuous Integration is a software development practice where developers regularly merge their code changes into  shared repository usually multiple times a day Each merge triggers and automated process to build and test the code, ensuring that new changes integrate smoothly with existing codebase.
