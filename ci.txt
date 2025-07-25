@@ -5,3 +5,19 @@ Early detection of errors: By integrating regularly, developers can detect and f
 Automatin for Testing: CI Automates the testing process ensuring that code quality remains high and that any bugs are caught early.
 Faster development cycles: CI Allows for faster itearation by providing quick feedback to developers leading to more agile and efficient development process
 Reduced Integration problems: Regular Integration reduces the complexity and time spent on integrating code into later stages
+
+How CI Works?
+VCS: Developers commit their code to a shared repo.
+CI Server: A CI Server monitors the repo. when changes are detected the ci server automatically triggers series of tasks.
+Build Automations: The code in built , which includes compiling code and generating artifacts.
+Automation Testing:
+ - Unit Tests: These checks individual compentes to check they work as expected
+ - Integration Tests: These tests verifies that different parts of application works together as needed
+ - End to End Tests: These tests simulates the real user scenario to ensure the system as a whole behaves correctly.
+Feedback: the result of build and tests are reported to developers in terms of success or failure
+
+Benifits of CI?
+Improved Code Quality:Automated testing ensures that codebase remains stable and bug free
+Faster Delivery: With Ci, code changes can be deployed more quickly and frequently leanding to faster delivery of new features and fixes.
+Collaboration: CI encourages Collaboration among team members by ensuring that everyone code works well together.
+Reduced risk: Early detection of issues reduces the risk of larger problems arising later in the development cycle.
